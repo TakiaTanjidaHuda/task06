@@ -1,0 +1,153 @@
+body{
+    margin: auto;
+    background-color: aliceblue;
+}
+header{
+    
+    height: auto;
+    
+}
+#navigation{
+    list-style-type: none;
+    margin: 10px;
+    height: 30px;
+    width: 1190px;
+    margin-left: 10px;
+}
+#navigation a{
+    float: right;
+    display: flex;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+#head{
+    height: 60px;
+    width: 1190px;
+    margin-top: 5px;
+    border: 2px solid black;
+    display: flex;
+    margin-left: 10px;
+    background-color: black;
+}
+#logo img{
+    height: 60px;
+    width: 70px;
+    margin-right:380px;
+}
+#search{
+    padding-top: 15px;
+}
+#order{
+    padding-left: 200px;
+    padding-top: 15px;
+    color: white;
+}
+a:hover{
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+#second{
+    display: flex;
+    width: 1200px;
+    height:220px;
+}
+
+.sidebar {
+    height:200px;
+    width: 300px;
+    background-color: #111;
+    overflow-x: hidden;
+    margin-top: 15px;
+    margin-left: 10px;
+   
+  }
+  
+.sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    border: 2px solid white;
+    
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+    background-color:powderblue;
+  }
+  .main {
+    height: 200px;
+    margin-left:20px; /* Same as the width of the sidenav */
+    text-align: justify;
+    width:900px ;
+    margin: 15px;
+   
+    
+    
+  }
+  .main:hover{
+    transform: scale(1.2)
+  }
+  #alternate{
+    display: flex;
+  }
+  .main img{
+    width:100px;
+    height:100px;
+  }
+  #third{
+    border: 2px solid black;
+    width: 1200px;
+    height: 300px;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+  }
+  .intro{
+    width:390px;
+    border: 2px solid black;
+    margin:10px;
+    background-color: lavender;
+    color: blueviolet;
+  }
+
+  .intro img{
+    height: 150px;
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 10px;
+  }
+  .intro:hover{
+    transform: scale(1.5);
+    opacity: 2.5;
+    background-color: darkgray;
+    color: black;
+  }
+  #forth{
+    border: 2px solid black;
+    width: 1200px;
+    height: 300px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: lavender;
+  }
+  th, td{
+    padding: 10px;;
+  }
+  footer{
+    margin-left: 10px;
+    height: 60px;
+    width: 1200px;
+    border: 2px solid black;
+    border-radius: 7px;
+    background-color: whitesmoke;
+  }
+  
+
+  
+
+
+  
